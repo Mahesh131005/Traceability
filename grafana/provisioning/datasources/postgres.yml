@@ -1,0 +1,21 @@
+apiVersion: 1
+
+datasources:
+  - name: PostgreSQL
+    uid: factory-postgres-ds
+    type: grafana-postgresql-datasource
+    access: proxy
+    url: postgres:5432
+    database: factory_trace
+    user: admin
+    secureJsonData:
+      password: admin123
+    jsonData:
+      sslmode: disable
+      maxOpenConns: 10
+      maxIdleConns: 5
+      connMaxLifetime: 14400
+      postgresVersion: 1500
+      timescaledb: false
+    isDefault: true
+    editable: true
