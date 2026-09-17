@@ -1,6 +1,6 @@
 # Factory Traceability Pipeline
 
-> **POC**: End-to-end factory traceability pipeline simulating Apple MDS (Manufacturing Design Systems) data flows — ingests messy multi-source station data, validates for data-integrity issues, and visualizes traceability metrics in Grafana.
+> **POC**: End-to-end factory traceability pipeline simulating high-tech manufacturing data flows — ingests messy multi-source station data, validates for data-integrity issues, and visualizes traceability metrics in Grafana.
 
 ---
 
@@ -134,7 +134,7 @@ factory-traceability-pipeline/
 │       └── factory_traceability.json  # Dashboard JSON model
 ├── data/
 │   └── raw/                        # Generated feed files (gitignored)
-├── project_plan.md                 # TPM-style milestones & dependencies
+├── project_plan.md                 # Project milestones & dependencies
 └── README.md                       # This file
 ```
 
@@ -158,4 +158,4 @@ docker-compose down -v   # Removes containers + volumes
 
 ---
 
-*Built as a portfolio POC for Apple TPM Intern – MDS (Manufacturing Design Systems)*
+*Built as a portfolio POC to demonstrate end-to-end data pipeline engineering and technical program management skills.*

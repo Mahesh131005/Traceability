@@ -28,7 +28,7 @@ random.seed(42)
 # Config
 # ---------------------------------------------------------------------------
 NUM_PARTS = 80
-PRODUCT_LINES = ["iPhone_17", "MacBook_Air_M4", "AirPods_Pro_3", "Apple_Watch_Ultra"]
+PRODUCT_LINES = ["Smartphone_X", "Laptop_Pro_14", "Wireless_Earbuds_Gen3", "Smartwatch_Ultra"]
 STATIONS = ["component_scan", "quality_check", "packaging"]
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RAW_DIR = os.path.join(BASE_DIR, "..", "data", "raw")

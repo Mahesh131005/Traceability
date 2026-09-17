@@ -1,6 +1,6 @@
 # Factory Traceability Pipeline — Project Plan
 
-> **Purpose**: This document demonstrates TPM-style program planning — scoping, sequencing, dependency management, and escalation thinking — applied to a technical POC.
+> **Purpose**: This document demonstrates technical program planning — scoping, sequencing, dependency management, and escalation thinking — applied to a technical POC.
 
 ---
 
